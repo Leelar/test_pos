@@ -1,132 +1,1774 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+	<head>
 
-        <title>Laravel</title>
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<meta name="Description" content="Bootstrap Responsive Admin Web Dashboard HTML5 Template">
+		<meta name="Author" content="Spruko Technologies Private Limited">
+		<meta name="Keywords" content="admin,admin dashboard,admin dashboard template,admin panel template,admin template,admin theme,bootstrap 4 admin template,bootstrap 4 dashboard,bootstrap admin,bootstrap admin dashboard,bootstrap admin panel,bootstrap admin template,bootstrap admin theme,bootstrap dashboard,bootstrap form template,bootstrap panel,bootstrap ui kit,dashboard bootstrap 4,dashboard design,dashboard html,dashboard template,dashboard ui kit,envato templates,flat ui,html,html and css templates,html dashboard template,html5,jquery html,premium,premium quality,sidebar bootstrap 4,template admin bootstrap 4"/>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+		<!-- Title -->
+		<title> Valex -  Premium dashboard ui bootstrap rwd admin html5 template </title>
 
-        <!-- Styles -->
-        <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.dark\:text-gray-500{--tw-text-opacity:1;color:#6b7280;color:rgba(107,114,128,var(--tw-text-opacity))}}
-        </style>
+		<!-- Favicon -->
+		<link rel="icon" href="assets/img/brand/favicon.png" type="image/x-icon"/>
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+		<!-- Icons css -->
+		<link href="assets/css/icons.css" rel="stylesheet">
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+		<!-- Bootstrap css -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <g clip-path="url(#clip0)" fill="#EF3B2D">
-                            <path d="M248.032 44.676h-16.466v100.23h47.394v-14.748h-30.928V44.676zM337.091 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.431 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162-.001 2.863-.479 5.584-1.432 8.161zM463.954 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.432 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162 0 2.863-.479 5.584-1.432 8.161zM650.772 44.676h-15.606v100.23h15.606V44.676zM365.013 144.906h15.607V93.538h26.776V78.182h-42.383v66.724zM542.133 78.182l-19.616 51.096-19.616-51.096h-15.808l25.617 66.724h19.614l25.617-66.724h-15.808zM591.98 76.466c-19.112 0-34.239 15.706-34.239 35.079 0 21.416 14.641 35.079 36.239 35.079 12.088 0 19.806-4.622 29.234-14.688l-10.544-8.158c-.006.008-7.958 10.449-19.832 10.449-13.802 0-19.612-11.127-19.612-16.884h51.777c2.72-22.043-11.772-40.877-33.023-40.877zm-18.713 29.28c.12-1.284 1.917-16.884 18.589-16.884 16.671 0 18.697 15.598 18.813 16.884h-37.402zM184.068 43.892c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002-35.648-20.524a2.971 2.971 0 00-2.964 0l-35.647 20.522-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v38.979l-29.706 17.103V24.493a3 3 0 00-.103-.776c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002L40.098 1.396a2.971 2.971 0 00-2.964 0L1.487 21.919l-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v122.09c0 1.063.568 2.044 1.489 2.575l71.293 41.045c.156.089.324.143.49.202.078.028.15.074.23.095a2.98 2.98 0 001.524 0c.069-.018.132-.059.2-.083.176-.061.354-.119.519-.214l71.293-41.045a2.971 2.971 0 001.489-2.575v-38.979l34.158-19.666a2.971 2.971 0 001.489-2.575V44.666a3.075 3.075 0 00-.106-.774zM74.255 143.167l-29.648-16.779 31.136-17.926.001-.001 34.164-19.669 29.674 17.084-21.772 12.428-43.555 24.863zm68.329-76.259v33.841l-12.475-7.182-17.231-9.92V49.806l12.475 7.182 17.231 9.92zm2.97-39.335l29.693 17.095-29.693 17.095-29.693-17.095 29.693-17.095zM54.06 114.089l-12.475 7.182V46.733l17.231-9.92 12.475-7.182v74.537l-17.231 9.921zM38.614 7.398l29.693 17.095-29.693 17.095L8.921 24.493 38.614 7.398zM5.938 29.632l12.475 7.182 17.231 9.92v79.676l.001.005-.001.006c0 .114.032.221.045.333.017.146.021.294.059.434l.002.007c.032.117.094.222.14.334.051.124.088.255.156.371a.036.036 0 00.004.009c.061.105.149.191.222.288.081.105.149.22.244.314l.008.01c.084.083.19.142.284.215.106.083.202.178.32.247l.013.005.011.008 34.139 19.321v34.175L5.939 144.867V29.632h-.001zm136.646 115.235l-65.352 37.625V148.31l48.399-27.628 16.953-9.677v33.862zm35.646-61.22l-29.706 17.102V66.908l17.231-9.92 12.475-7.182v33.841z"/>
-                        </g>
-                    </svg>
-                </div>
+		<!--  Owl-carousel css-->
+		<link href="assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
 
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div class="p-6">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Documentation</a></div>
-                            </div>
+		<!-- P-scroll bar css-->
+		<link href="assets/plugins/perfect-scrollbar/p-scrollbar.css" rel="stylesheet" />
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
-                                </div>
-                            </div>
-                        </div>
+		<!--  Right-sidemenu css -->
+		<link href="assets/plugins/sidebar/sidebar.css" rel="stylesheet">
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
-                            </div>
+		<!-- Sidemenu css -->
+		<link rel="stylesheet" href="assets/css/sidemenu.css">
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </div>
-                            </div>
-                        </div>
+		<!-- Maps css -->
+		<link href="assets/plugins/jqvmap/jqvmap.min.css" rel="stylesheet">
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
-                            </div>
+		<!-- style css -->
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/style-dark.css" rel="stylesheet">
+		<link href="assets/css/boxed.css" rel="stylesheet">
+		<link href="assets/css/dark-boxed.css" rel="stylesheet">
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </div>
-                            </div>
-                        </div>
+		<!---Skinmodes css-->
+		<link href="assets/css/skin-modes.css" rel="stylesheet" />
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
-                            </div>
+	</head>
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+	<body class="main-body app sidebar-mini">
 
-                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 sm:text-left">
-                        <div class="flex items-center">
-                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="-mt-px w-5 h-5 text-gray-400">
-                                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                            </svg>
+		<!-- Loader -->
+		<div id="global-loader">
+			<img src="assets/img/loader.svg" class="loader-img" alt="Loader">
+		</div>
+		<!-- /Loader -->
 
-                            <a href="https://laravel.bigcartel.com" class="ml-1 underline">
-                                Shop
-                            </a>
+		<!-- Page -->
+		<div class="page">
 
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="ml-4 -mt-px w-5 h-5 text-gray-400">
-                                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                            </svg>
+			<!-- main-sidebar -->
+			<div class="app-sidebar__overlay" data-bs-toggle="sidebar"></div>
+			<aside class="app-sidebar sidebar-scroll">
+				<div class="main-sidebar-header active">
+					<a class="desktop-logo logo-light active" href="index.html"><img src="assets/img/brand/logo.png" class="main-logo" alt="logo"></a>
+					<a class="desktop-logo logo-dark active" href="index.html"><img src="assets/img/brand/logo-white.png" class="main-logo dark-theme" alt="logo"></a>
+					<a class="logo-icon mobile-logo icon-light active" href="index.html"><img src="assets/img/brand/favicon.png" class="logo-icon" alt="logo"></a>
+					<a class="logo-icon mobile-logo icon-dark active" href="index.html"><img src="assets/img/brand/favicon-white.png" class="logo-icon dark-theme" alt="logo"></a>
+				</div>
+				<div class="main-sidemenu">
+					<div class="app-sidebar__user clearfix">
+						<div class="dropdown user-pro-body">
+							<div class="">
+								<img alt="user-img" class="avatar avatar-xl brround" src="assets/img/faces/6.jpg"><span class="avatar-status profile-status bg-green"></span>
+							</div>
+							<div class="user-info">
+								<h4 class="fw-semibold mt-3 mb-0">Petey Cruiser</h4>
+								<span class="mb-0 text-muted">Premium Member</span>
+							</div>
+						</div>
+					</div>
+					<ul class="side-menu">
+						<li class="side-item side-item-category">Main</li>
+						<li class="slide">
+							<a class="side-menu__item" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24" ><path d="M0 0h24v24H0V0z" fill="none"/><path d="M5 5h4v6H5zm10 8h4v6h-4zM5 17h4v2H5zM15 5h4v2h-4z" opacity=".3"/><path d="M3 13h8V3H3v10zm2-8h4v6H5V5zm8 16h8V11h-8v10zm2-8h4v6h-4v-6zM13 3v6h8V3h-8zm6 4h-4V5h4v2zM3 21h8v-6H3v6zm2-4h4v2H5v-2z"/></svg><span class="side-menu__label">Index</span><span class="badge bg-success text-light" id="bg-side-text">1</span></a>
+						</li>
+						<li class="side-item side-item-category">General</li>
+						<li class="slide">
+							<a class="side-menu__item" href="icons.html"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon"  viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm3.5 4c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zm-7 0c.83 0 1.5.67 1.5 1.5S9.33 11 8.5 11 7 10.33 7 9.5 7.67 8 8.5 8zm3.5 9.5c-2.33 0-4.32-1.45-5.12-3.5h1.67c.7 1.19 1.97 2 3.45 2s2.76-.81 3.45-2h1.67c-.8 2.05-2.79 3.5-5.12 3.5z" opacity=".3"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M12 16c-1.48 0-2.75-.81-3.45-2H6.88c.8 2.05 2.79 3.5 5.12 3.5s4.32-1.45 5.12-3.5h-1.67c-.69 1.19-1.97 2-3.45 2zm-.01-14C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/></svg><span class="side-menu__label">Icons</span><span class="badge bg-danger text-light" id="bg-side-text">New</span></a>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 5H5v14h14V5zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z" opacity=".3"/><path d="M3 5v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2zm2 0h14v14H5V5zm2 5h2v7H7zm4-3h2v10h-2zm4 6h2v4h-2z"/></svg><span class="side-menu__label">Charts</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="chart-morris.html">Morris Charts</a></li>
+								<li><a class="slide-item" href="chart-flot.html">Flot Charts</a></li>
+								<li><a class="slide-item" href="chart-chartjs.html">ChartJS</a></li>
+								<li><a class="slide-item" href="chart-echart.html">Echart</a></li>
+								<li><a class="slide-item" href="chart-sparkline.html">Sparkline</a></li>
+								<li><a class="slide-item" href="chart-peity.html">Chart-peity</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3.31 11l2.2 8.01L18.5 19l2.2-8H3.31zM12 17c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" opacity=".3"/><path d="M22 9h-4.79l-4.38-6.56c-.19-.28-.51-.42-.83-.42s-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1zM12 4.8L14.8 9H9.2L12 4.8zM18.5 19l-12.99.01L3.31 11H20.7l-2.2 8zM12 13c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg><span class="side-menu__label">Ecommerce</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="products.html">Products</a></li>
+								<li><a class="slide-item" href="product-details.html">Product-Details</a></li>
+								<li><a class="slide-item" href="product-cart.html">Cart</a></li>
+							</ul>
+						</li>
+						<li class="side-item side-item-category">WEB APPS</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M4 12c0 4.08 3.06 7.44 7 7.93V4.07C7.05 4.56 4 7.92 4 12z" opacity=".3"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93s3.05-7.44 7-7.93v15.86zm2-15.86c1.03.13 2 .45 2.87.93H13v-.93zM13 7h5.24c.25.31.48.65.68 1H13V7zm0 3h6.74c.08.33.15.66.19 1H13v-1zm0 9.93V19h2.87c-.87.48-1.84.8-2.87.93zM18.24 17H13v-1h5.92c-.2.35-.43.69-.68 1zm1.5-3H13v-1h6.93c-.04.34-.11.67-.19 1z"/></svg><span class="side-menu__label">Apps</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="cards.html">Cards</a></li>
+								<li><a class="slide-item" href="draggablecards.html">Draggablecards</a></li>
+								<li><a class="slide-item" href="rangeslider.html">Range-slider</a></li>
+								<li><a class="slide-item" href="calendar.html">Calendar</a></li>
+								<li><a class="slide-item" href="contacts.html">Contacts</a></li>
+								<li><a class="slide-item" href="image-compare.html">Image-compare</a></li>
+								<li><a class="slide-item" href="notification.html">Notification</a></li>
+								<li><a class="slide-item" href="widget-notification.html">Widget-notification</a></li>
+								<li><a class="slide-item" href="treeview.html">Treeview</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M6.26 9L12 13.47 17.74 9 12 4.53z" opacity=".3"/><path d="M19.37 12.8l-7.38 5.74-7.37-5.73L3 14.07l9 7 9-7zM12 2L3 9l1.63 1.27L12 16l7.36-5.73L21 9l-9-7zm0 11.47L6.26 9 12 4.53 17.74 9 12 13.47z"/></svg><span class="side-menu__label">Elements</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="alerts.html">Alerts</a></li>
+								<li><a class="slide-item" href="avatar.html">Avatar</a></li>
+								<li><a class="slide-item" href="breadcrumbs.html">Breadcrumbs</a></li>
+								<li><a class="slide-item" href="buttons.html">Buttons</a></li>
+								<li><a class="slide-item" href="badge.html">Badge</a></li>
+								<li><a class="slide-item" href="dropdown.html">Dropdown</a></li>
+								<li><a class="slide-item" href="thumbnails.html">Thumbnails</a></li>
+								<li><a class="slide-item" href="list-group.html">List Group</a></li>
+								<li><a class="slide-item" href="navigation.html">Navigation</a></li>
+								<li><a class="slide-item" href="images.html">Images</a></li>
+								<li><a class="slide-item" href="pagination.html">Pagination</a></li>
+								<li><a class="slide-item" href="popover.html">Popover</a></li>
+								<li><a class="slide-item" href="progress.html">Progress</a></li>
+								<li><a class="slide-item" href="spinners.html">Spinners</a></li>
+								<li><a class="slide-item" href="media-object.html">Media Object</a></li>
+								<li><a class="slide-item" href="typography.html">Typography</a></li>
+								<li><a class="slide-item" href="tooltip.html">Tooltip</a></li>
+								<li><a class="slide-item" href="toast.html">Toast</a></li>
+								<li><a class="slide-item" href="tags.html">Tags</a></li>
+								<li><a class="slide-item" href="tabs.html">Tabs</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 4c-4.41 0-8 3.59-8 8s3.59 8 8 8c.28 0 .5-.22.5-.5 0-.16-.08-.28-.14-.35-.41-.46-.63-1.05-.63-1.65 0-1.38 1.12-2.5 2.5-2.5H16c2.21 0 4-1.79 4-4 0-3.86-3.59-7-8-7zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 10 6.5 10s1.5.67 1.5 1.5S7.33 13 6.5 13zm3-4C8.67 9 8 8.33 8 7.5S8.67 6 9.5 6s1.5.67 1.5 1.5S10.33 9 9.5 9zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 6 14.5 6s1.5.67 1.5 1.5S15.33 9 14.5 9zm4.5 2.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5 1.5.67 1.5 1.5z" opacity=".3"/><path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10c1.38 0 2.5-1.12 2.5-2.5 0-.61-.23-1.21-.64-1.67-.08-.09-.13-.21-.13-.33 0-.28.22-.5.5-.5H16c3.31 0 6-2.69 6-6 0-4.96-4.49-9-10-9zm4 13h-1.77c-1.38 0-2.5 1.12-2.5 2.5 0 .61.22 1.19.63 1.65.06.07.14.19.14.35 0 .28-.22.5-.5.5-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.14 8 7c0 2.21-1.79 4-4 4z"/><circle cx="6.5" cy="11.5" r="1.5"/><circle cx="9.5" cy="7.5" r="1.5"/><circle cx="14.5" cy="7.5" r="1.5"/><circle cx="17.5" cy="11.5" r="1.5"/></svg><span class="side-menu__label">Advanced UI</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="accordion.html">Accordion</a></li>
+								<li><a class="slide-item" href="carousel.html">Carousel</a></li>
+								<li><a class="slide-item" href="collapse.html">Collapse</a></li>
+								<li><a class="slide-item" href="modals.html">Modals</a></li>
+								<li><a class="slide-item" href="timeline.html">Timeline</a></li>
+								<li><a class="slide-item" href="sweet-alert.html">Sweet Alert</a></li>
+								<li><a class="slide-item" href="rating.html">Ratings</a></li>
+								<li><a class="slide-item" href="counters.html">Counters</a></li>
+								<li><a class="slide-item" href="search.html">Search</a></li>
+								<li><a class="slide-item" href="userlist.html">Userlist</a></li>
+								<li><a class="slide-item" href="blog.html">Blog</a></li>
+							</ul>
+						</li>
+						<li class="side-item side-item-category">COMPONENTS</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24" ><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15 11V4H4v8.17l.59-.58.58-.59H6z" opacity=".3"/><path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-5 7c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10zM4.59 11.59l-.59.58V4h11v7H5.17l-.58.59z"/></svg><span class="side-menu__label">Mail</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="mail.html">Mail</a></li>
+								<li><a class="slide-item" href="mail-compose.html">Mail Compose</a></li>
+								<li><a class="slide-item" href="mail-read.html">Read-mail</a></li>
+								<li><a class="slide-item" href="mail-settings.html">mail-settings</a></li>
+								<li><a class="slide-item" href="chat.html">Chat</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M13 4H6v16h12V9h-5V4zm3 14H8v-2h8v2zm0-6v2H8v-2h8z" opacity=".3"/><path d="M8 16h8v2H8zm0-4h8v2H8zm6-10H6c-1.1 0-2 .9-2 2v16c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg><span class="side-menu__label">Forms</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="form-elements.html">Form Elements</a></li>
+								<li><a class="slide-item" href="form-advanced.html">Advanced Forms</a></li>
+								<li><a class="slide-item" href="form-layouts.html">Form Layouts</a></li>
+								<li><a class="slide-item" href="form-validation.html">Form Validation</a></li>
+								<li><a class="slide-item" href="form-wizards.html">Form Wizards</a></li>
+								<li><a class="slide-item" href="form-editor.html">WYSIWYG Editor</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24" ><path d="M0 0h24v24H0V0z" fill="none"/><path d="M5 5h15v3H5zm12 5h3v9h-3zm-7 0h5v9h-5zm-5 0h3v9H5z" opacity=".3"/><path d="M20 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM8 19H5v-9h3v9zm7 0h-5v-9h5v9zm5 0h-3v-9h3v9zm0-11H5V5h15v3z"/></svg><span class="side-menu__label">Tables</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="table-basic.html">Basic Tables</a></li>
+								<li><a class="slide-item" href="table-data.html">Data Tables</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" href="widgets.html"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon"  viewBox="0 0 24 24" ><path d="M0 0h24v24H0V0z" fill="none"/><path d="M5 5h4v4H5zm10 10h4v4h-4zM5 15h4v4H5zM16.66 4.52l-2.83 2.82 2.83 2.83 2.83-2.83z" opacity=".3"/><path d="M16.66 1.69L11 7.34 16.66 13l5.66-5.66-5.66-5.65zm-2.83 5.65l2.83-2.83 2.83 2.83-2.83 2.83-2.83-2.83zM3 3v8h8V3H3zm6 6H5V5h4v4zM3 21h8v-8H3v8zm2-6h4v4H5v-4zm8-2v8h8v-8h-8zm6 6h-4v-4h4v4z"/></svg><span class="side-menu__label">Widgets</span><span class="badge bg-warning text-dark" id="bg-side-text">Hot</span></a>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 4C9.24 4 7 6.24 7 9c0 2.85 2.92 7.21 5 9.88 2.11-2.69 5-7 5-9.88 0-2.76-2.24-5-5-5zm0 7.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" opacity=".3"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z"/><circle cx="12" cy="9" r="2.5"/></svg><span class="side-menu__label">Maps</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="map-leaflet.html">Mapel Maps</a></li>
+								<li><a class="slide-item" href="map-vector.html">Vector Maps</a></li>
+							</ul>
+						</li>
+						<li class="side-item side-item-category">Pages</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" class="side-menu__icon" viewBox="0 0 24 24" ><g><rect fill="none"/></g><g><g/><g><path d="M21,5c-1.11-0.35-2.33-0.5-3.5-0.5c-1.95,0-4.05,0.4-5.5,1.5c-1.45-1.1-3.55-1.5-5.5-1.5S2.45,4.9,1,6v14.65 c0,0.25,0.25,0.5,0.5,0.5c0.1,0,0.15-0.05,0.25-0.05C3.1,20.45,5.05,20,6.5,20c1.95,0,4.05,0.4,5.5,1.5c1.35-0.85,3.8-1.5,5.5-1.5 c1.65,0,3.35,0.3,4.75,1.05c0.1,0.05,0.15,0.05,0.25,0.05c0.25,0,0.5-0.25,0.5-0.5V6C22.4,5.55,21.75,5.25,21,5z M3,18.5V7 c1.1-0.35,2.3-0.5,3.5-0.5c1.34,0,3.13,0.41,4.5,0.99v11.5C9.63,18.41,7.84,18,6.5,18C5.3,18,4.1,18.15,3,18.5z M21,18.5 c-1.1-0.35-2.3-0.5-3.5-0.5c-1.34,0-3.13,0.41-4.5,0.99V7.49c1.37-0.59,3.16-0.99,4.5-0.99c1.2,0,2.4,0.15,3.5,0.5V18.5z"/><path d="M11,7.49C9.63,6.91,7.84,6.5,6.5,6.5C5.3,6.5,4.1,6.65,3,7v11.5C4.1,18.15,5.3,18,6.5,18 c1.34,0,3.13,0.41,4.5,0.99V7.49z" opacity=".3"/></g><g><path d="M17.5,10.5c0.88,0,1.73,0.09,2.5,0.26V9.24C19.21,9.09,18.36,9,17.5,9c-1.28,0-2.46,0.16-3.5,0.47v1.57 C14.99,10.69,16.18,10.5,17.5,10.5z"/><path d="M17.5,13.16c0.88,0,1.73,0.09,2.5,0.26V11.9c-0.79-0.15-1.64-0.24-2.5-0.24c-1.28,0-2.46,0.16-3.5,0.47v1.57 C14.99,13.36,16.18,13.16,17.5,13.16z"/><path d="M17.5,15.83c0.88,0,1.73,0.09,2.5,0.26v-1.52c-0.79-0.15-1.64-0.24-2.5-0.24c-1.28,0-2.46,0.16-3.5,0.47v1.57 C14.99,16.02,16.18,15.83,17.5,15.83z"/></g></g></svg><span class="side-menu__label">Pages</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="profile.html">Profile</a></li>
+								<li><a class="slide-item" href="editprofile.html">Edit-Profile</a></li>
+								<li><a class="slide-item" href="invoice.html">Invoice</a></li>
+								<li><a class="slide-item" href="pricing.html">Pricing</a></li>
+								<li><a class="slide-item" href="gallery.html">Gallery</a></li>
+								<li><a class="slide-item" href="todotask.html">Todotask</a></li>
+								<li><a class="slide-item" href="faq.html">Faqs</a></li>
+								<li><a class="slide-item" href="empty.html">Empty Page</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24" ><path d="M0 0h24v24H0V0z" fill="none"/><path d="M10.9 19.91c.36.05.72.09 1.1.09 2.18 0 4.16-.88 5.61-2.3L14.89 13l-3.99 6.91zm-1.04-.21l2.71-4.7H4.59c.93 2.28 2.87 4.03 5.27 4.7zM8.54 12L5.7 7.09C4.64 8.45 4 10.15 4 12c0 .69.1 1.36.26 2h5.43l-1.15-2zm9.76 4.91C19.36 15.55 20 13.85 20 12c0-.69-.1-1.36-.26-2h-5.43l3.99 6.91zM13.73 9h5.68c-.93-2.28-2.88-4.04-5.28-4.7L11.42 9h2.31zm-3.46 0l2.83-4.92C12.74 4.03 12.37 4 12 4c-2.18 0-4.16.88-5.6 2.3L9.12 11l1.15-2z" opacity=".3"/><path d="M12 22c5.52 0 10-4.48 10-10 0-4.75-3.31-8.72-7.75-9.74l-.08-.04-.01.02C13.46 2.09 12.74 2 12 2 6.48 2 2 6.48 2 12s4.48 10 10 10zm0-2c-.38 0-.74-.04-1.1-.09L14.89 13l2.72 4.7C16.16 19.12 14.18 20 12 20zm8-8c0 1.85-.64 3.55-1.7 4.91l-4-6.91h5.43c.17.64.27 1.31.27 2zm-.59-3h-7.99l2.71-4.7c2.4.66 4.35 2.42 5.28 4.7zM12 4c.37 0 .74.03 1.1.08L10.27 9l-1.15 2L6.4 6.3C7.84 4.88 9.82 4 12 4zm-8 8c0-1.85.64-3.55 1.7-4.91L8.54 12l1.15 2H4.26C4.1 13.36 4 12.69 4 12zm6.27 3h2.3l-2.71 4.7c-2.4-.67-4.35-2.42-5.28-4.7h5.69z"/></svg><span class="side-menu__label">Utilities</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="background.html">Background</a></li>
+								<li><a class="slide-item" href="border.html">Border</a></li>
+								<li><a class="slide-item" href="display.html">Display</a></li>
+								<li><a class="slide-item" href="flex.html">Flex</a></li>
+								<li><a class="slide-item" href="height.html">Height</a></li>
+								<li><a class="slide-item" href="margin.html">Margin</a></li>
+								<li><a class="slide-item" href="padding.html">Padding</a></li>
+								<li><a class="slide-item" href="position.html">Position</a></li>
+								<li><a class="slide-item" href="width.html">Width</a></li>
+								<li><a class="slide-item" href="extras.html">Extras</a></li>
+							</ul>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M6 20h12V10H6v10zm6-7c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z" opacity=".3"/><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM9 6c0-1.66 1.34-3 3-3s3 1.34 3 3v2H9V6zm9 14H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/></svg><span class="side-menu__label">Custom Pages</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="signin.html">Sign In</a></li>
+								<li><a class="slide-item" href="signup.html">Sign Up</a></li>
+								<li><a class="slide-item" href="forgot.html">Forgot Password</a></li>
+								<li><a class="slide-item" href="reset.html">Reset Password</a></li>
+								<li><a class="slide-item" href="lockscreen.html">Lockscreen</a></li>
+								<li><a class="slide-item" href="underconstruction.html">UnderConstruction</a></li>
+								<li><a class="slide-item" href="404.html">404 Error</a></li>
+								<li><a class="slide-item" href="500.html">500 Error</a></li>
+							</ul>
+						</li>
+						<li class="slide ">
+							<a class="side-menu__item" data-bs-toggle="slide" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24" ><path d="M0 0h24v24H0V0z" fill="none"/><path d="M5 9h14V5H5v4zm2-3.5c.83 0 1.5.67 1.5 1.5S7.83 8.5 7 8.5 5.5 7.83 5.5 7 6.17 5.5 7 5.5zM5 19h14v-4H5v4zm2-3.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5z" opacity=".3"/><path d="M20 13H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zm-1 6H5v-4h14v4zm-12-.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5-1.5.67-1.5 1.5.67 1.5 1.5 1.5zM20 3H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zm-1 6H5V5h14v4zM7 8.5c.83 0 1.5-.67 1.5-1.5S7.83 5.5 7 5.5 5.5 6.17 5.5 7 6.17 8.5 7 8.5z"/></svg><span class="side-menu__label">Submenus</span><i class="angle fe fe-chevron-down"></i></a>
+							<ul class="slide-menu">
+								<li><a class="slide-item" href="#">Level1</a></li>
+								<li class="sub-slide">
+									<a class="sub-side-menu__item" data-bs-toggle="sub-slide" href="#"><span class="sub-side-menu__label">Level2</span><i class="sub-angle fe fe-chevron-down"></i></a>
+									<ul class="sub-slide-menu">
+										<li><a class="sub-slide-item" href="#">Level01</a></li>
+										<li><a class="sub-slide-item" href="#">Level02</a></li>
+										<li class="sub-slide-sub">
+											<a class="sub-side-menu__item sub-slide-item" data-bs-toggle="sub-slide-sub" href="#"><span class="sub-side-menu__label">Level03</span><i class="sub-angle fe fe-chevron-down"></i></a>
+											<ul class="sub-slide-menu-sub">
+												<li><a class="sub-slide-item" href="#">Level11</a></li>
+												<li><a class="sub-slide-item" href="#">Level2</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</aside>
+			<!-- main-sidebar -->
 
-                            <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline">
-                                Sponsor
-                            </a>
-                        </div>
-                    </div>
+			<!-- main-content -->
+			<div class="main-content app-content">
 
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+			<!-- main-header -->
+			<div class="main-header sticky side-header nav nav-item">
+				<div class="container-fluid">
+					<div class="main-header-left ">
+						<div class="responsive-logo">
+							<a href="index.html"><img src="assets/img/brand/logo.png" class="logo-1"
+									alt="logo"></a>
+							<a href="index.html"><img src="assets/img/brand/logo-white.png" class="dark-logo-1"
+									alt="logo"></a>
+							<a href="index.html"><img src="assets/img/brand/favicon.png" class="logo-2"
+									alt="logo"></a>
+							<a href="index.html"><img src="assets/img/brand/favicon-white.png" class="dark-logo-2"
+									alt="logo"></a>
+						</div>
+						<div class="app-sidebar__toggle" data-bs-toggle="sidebar">
+							<a class="open-toggle" href="#"><i class="header-icon fe fe-align-left"></i></a>
+							<a class="close-toggle" href="#"><i class="header-icons fe fe-x"></i></a>
+						</div>
+						<div class="main-header-center ms-3 d-sm-none d-md-none d-lg-block">
+							<input class="form-control" placeholder="Search for anything..." type="search"> <button
+								class="btn"><i class="fas fa-search d-none d-md-block"></i></button>
+						</div>
+					</div>
+					<div class="main-header-right">
+						<ul class="nav nav-item  navbar-nav-right ms-auto">
+							<li class="nav">
+									<div class="dropdown nav-itemd-none d-md-flex">
+										<a href="#" class="d-flex  nav-item country-flag1"
+											data-bs-toggle="dropdown" aria-expanded="false">
+											<span class="avatar country-Flag me-0 align-self-center bg-transparent"><img
+													src="assets/img/flags/us_flag.jpg" alt="img"></span>
+											<div class="my-auto">
+												<strong class="me-2 ms-2 my-auto">English</strong>
+											</div>
+										</a>
+										<div class="dropdown-menu dropdown-menu-left dropdown-menu-arrow"
+											x-placement="bottom-end">
+											<a href="#" class="dropdown-item d-flex ">
+												<span class="avatar  me-3 align-self-center bg-transparent"><img
+														src="assets/img/flags/french_flag.jpg" alt="img"></span>
+												<div class="d-flex">
+													<span class="mt-2">French</span>
+												</div>
+											</a>
+											<a href="#" class="dropdown-item d-flex">
+												<span class="avatar  me-3 align-self-center bg-transparent"><img
+														src="assets/img/flags/germany_flag.jpg" alt="img"></span>
+												<div class="d-flex">
+													<span class="mt-2">Germany</span>
+												</div>
+											</a>
+											<a href="#" class="dropdown-item d-flex">
+												<span class="avatar me-3 align-self-center bg-transparent"><img
+														src="assets/img/flags/italy_flag.jpg" alt="img"></span>
+												<div class="d-flex">
+													<span class="mt-2">Italy</span>
+												</div>
+											</a>
+											<a href="#" class="dropdown-item d-flex">
+												<span class="avatar me-3 align-self-center bg-transparent"><img
+														src="assets/img/flags/russia_flag.jpg" alt="img"></span>
+												<div class="d-flex">
+													<span class="mt-2">Russia</span>
+												</div>
+											</a>
+											<a href="#" class="dropdown-item d-flex">
+												<span class="avatar  me-3 align-self-center bg-transparent"><img
+														src="assets/img/flags/spain_flag.jpg" alt="img"></span>
+												<div class="d-flex">
+													<span class="mt-2">spain</span>
+												</div>
+											</a>
+										</div>
+									</div>
+							</li>
+
+							<li class="nav-link" id="bs-example-navbar-collapse-1">
+								<form class="navbar-form" role="search">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Search">
+										<span class="input-group-btn">
+											<button type="reset" class="btn btn-default">
+												<i class="fas fa-times"></i>
+											</button>
+											<button type="submit" class="btn btn-default nav-link resp-btn">
+												<svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs"
+													viewBox="0 0 24 24" fill="none" stroke="currentColor"
+													stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+													class="feather feather-search">
+													<circle cx="11" cy="11" r="8"></circle>
+													<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+												</svg>
+											</button>
+										</span>
+									</div>
+								</form>
+							</li>
+
+							<li class="dropdown nav-item main-header-message ">
+								<a class="new nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+										class="header-icon-svgs" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+										stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+										class="feather feather-mail">
+										<path
+											d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+										</path>
+										<polyline points="22,6 12,13 2,6"></polyline>
+									</svg><span class=" pulse-danger"></span></a>
+								<div class="dropdown-menu">
+									<div class="menu-header-content bg-primary text-start">
+										<div class="d-flex">
+											<h6 class="dropdown-title mb-1 tx-15 text-white fw-semibold">Messages</h6>
+											<span class="badge rounded-pill bg-warning ms-auto my-auto float-end">Mark
+												All Read</span>
+										</div>
+										<p class="dropdown-title-text subtext mb-0 text-white op-6 pb-0 tx-12 ">You have
+											4 unread messages</p>
+									</div>
+									<div class="main-message-list chat-scroll">
+										<a href="#" class="p-3 d-flex border-bottom">
+											<div class="  drop-img  cover-image  "
+												data-bs-image-src="assets/img/faces/3.jpg">
+												<span class="avatar-status bg-teal"></span>
+											</div>
+											<div class="wd-90p">
+												<div class="d-flex">
+													<h5 class="mb-1 name">Petey Cruiser</h5>
+												</div>
+												<p class="mb-0 desc">I'm sorry but i'm not sure how to help you with
+													that......</p>
+												<p class="time mb-0 text-start float-start ms-2 mt-2">Mar 15 3:55 PM</p>
+											</div>
+										</a>
+										<a href="#" class="p-3 d-flex border-bottom">
+											<div class="drop-img cover-image"
+												data-bs-image-src="assets/img/faces/2.jpg">
+												<span class="avatar-status bg-teal"></span>
+											</div>
+											<div class="wd-90p">
+												<div class="d-flex">
+													<h5 class="mb-1 name">Jimmy Changa</h5>
+												</div>
+												<p class="mb-0 desc">All set ! Now, time to get to you now......</p>
+												<p class="time mb-0 text-start float-start ms-2 mt-2">Mar 06 01:12 AM
+												</p>
+											</div>
+										</a>
+										<a href="#" class="p-3 d-flex border-bottom">
+											<div class="drop-img cover-image"
+												data-bs-image-src="assets/img/faces/9.jpg">
+												<span class="avatar-status bg-teal"></span>
+											</div>
+											<div class="wd-90p">
+												<div class="d-flex">
+													<h5 class="mb-1 name">Graham Cracker</h5>
+												</div>
+												<p class="mb-0 desc">Are you ready to pickup your Delivery...</p>
+												<p class="time mb-0 text-start float-start ms-2 mt-2">Feb 25 10:35 AM
+												</p>
+											</div>
+										</a>
+										<a href="#" class="p-3 d-flex border-bottom">
+											<div class="drop-img cover-image"
+												data-bs-image-src="assets/img/faces/12.jpg">
+												<span class="avatar-status bg-teal"></span>
+											</div>
+											<div class="wd-90p">
+												<div class="d-flex">
+													<h5 class="mb-1 name">Donatella Nobatti</h5>
+												</div>
+												<p class="mb-0 desc">Here are some products ...</p>
+												<p class="time mb-0 text-start float-start ms-2 mt-2">Feb 12 05:12 PM
+												</p>
+											</div>
+										</a>
+										<a href="#" class="p-3 d-flex border-bottom">
+											<div class="drop-img cover-image"
+												data-bs-image-src="assets/img/faces/5.jpg">
+												<span class="avatar-status bg-teal"></span>
+											</div>
+											<div class="wd-90p">
+												<div class="d-flex">
+													<h5 class="mb-1 name">Anne Fibbiyon</h5>
+												</div>
+												<p class="mb-0 desc">I'm sorry but i'm not sure how...</p>
+												<p class="time mb-0 text-start float-start ms-2 mt-2">Jan 29 03:16 PM
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="text-center dropdown-footer">
+										<a href="text-center">VIEW ALL</a>
+									</div>
+								</div>
+							</li>
+
+							<li class="dropdown nav-item main-header-notification">
+								<a class="new nav-link" href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24"
+										fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" class="feather feather-bell">
+										<path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+										<path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+									</svg><span class=" pulse"></span></a>
+								<div class="dropdown-menu">
+									<div class="menu-header-content bg-primary text-start">
+										<div class="d-flex">
+											<h6 class="dropdown-title mb-1 tx-15 text-white fw-semibold">Notifications
+											</h6>
+											<span class="badge rounded-pill bg-warning ms-auto my-auto float-end">Mark
+												All Read</span>
+										</div>
+										<p class="dropdown-title-text subtext mb-0 text-white op-6 pb-0 tx-12 ">You have
+											4 unread Notifications</p>
+									</div>
+									<div class="main-notification-list Notification-scroll">
+										<a class="d-flex p-3 border-bottom" href="#">
+											<div class="notifyimg bg-pink">
+												<i class="la la-file-alt text-white"></i>
+											</div>
+											<div class="ms-3">
+												<h5 class="notification-label mb-1">New files available</h5>
+												<div class="notification-subtext">10 hour ago</div>
+											</div>
+											<div class="ms-auto">
+												<i class="las la-angle-right text-end text-muted"></i>
+											</div>
+										</a>
+										<a class="d-flex p-3 border-bottom" href="#">
+											<div class="notifyimg bg-purple">
+												<i class="la la-gem text-white"></i>
+											</div>
+											<div class="ms-3">
+												<h5 class="notification-label mb-1">Updates Available</h5>
+												<div class="notification-subtext">2 days ago</div>
+											</div>
+											<div class="ms-auto">
+												<i class="las la-angle-right text-end text-muted"></i>
+											</div>
+										</a>
+										<a class="d-flex p-3 border-bottom" href="#">
+											<div class="notifyimg bg-success">
+												<i class="la la-shopping-basket text-white"></i>
+											</div>
+											<div class="ms-3">
+												<h5 class="notification-label mb-1">New Order Received</h5>
+												<div class="notification-subtext">1 hour ago</div>
+											</div>
+											<div class="ms-auto">
+												<i class="las la-angle-right text-end text-muted"></i>
+											</div>
+										</a>
+										<a class="d-flex p-3 border-bottom" href="#">
+											<div class="notifyimg bg-warning">
+												<i class="la la-envelope-open text-white"></i>
+											</div>
+											<div class="ms-3">
+												<h5 class="notification-label mb-1">New review received</h5>
+												<div class="notification-subtext">1 day ago</div>
+											</div>
+											<div class="ms-auto">
+												<i class="las la-angle-right text-end text-muted"></i>
+											</div>
+										</a>
+										<a class="d-flex p-3 border-bottom" href="#">
+											<div class="notifyimg bg-danger">
+												<i class="la la-user-check text-white"></i>
+											</div>
+											<div class="ms-3">
+												<h5 class="notification-label mb-1">22 verified registrations</h5>
+												<div class="notification-subtext">2 hour ago</div>
+											</div>
+											<div class="ms-auto">
+												<i class="las la-angle-right text-end text-muted"></i>
+											</div>
+										</a>
+										<a class="d-flex p-3 border-bottom" href="#">
+											<div class="notifyimg bg-primary">
+												<i class="la la-check-circle text-white"></i>
+											</div>
+											<div class="ms-3">
+												<h5 class="notification-label mb-1">Project has been approved</h5>
+												<div class="notification-subtext">4 hour ago</div>
+											</div>
+											<div class="ms-auto">
+												<i class="las la-angle-right text-end text-muted"></i>
+											</div>
+										</a>
+									</div>
+									<div class="dropdown-footer">
+										<a href="">VIEW ALL</a>
+									</div>
+								</div>
+							</li>
+
+							<li class="nav-item full-screen fullscreen-button">
+								<a class="new nav-link full-screen-link" href="#"><svg
+										xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24"
+										fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" class="feather feather-maximize">
+										<path
+											d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3">
+										</path>
+									</svg></a>
+							</li>
+
+							<li class="dropdown main-profile-menu nav nav-item nav-link">
+								<a class="profile-user d-flex" href=""><img alt=""
+										src="assets/img/faces/6.jpg"></a>
+								<div class="dropdown-menu">
+									<div class="main-header-profile bg-primary p-3">
+										<div class="d-flex wd-100p">
+											<div class="main-img-user"><img alt="" src="assets/img/faces/6.jpg"
+													class=""></div>
+											<div class="ms-3 my-auto">
+												<h6>Petey Cruiser</h6><span>Premium Member</span>
+											</div>
+										</div>
+									</div>
+									<a class="dropdown-item" href=""><i class="bx bx-user-circle"></i>Profile</a>
+									<a class="dropdown-item" href=""><i class="bx bx-cog"></i> Edit Profile</a>
+									<a class="dropdown-item" href=""><i class="bx bxs-inbox"></i>Inbox</a>
+									<a class="dropdown-item" href=""><i class="bx bx-envelope"></i>Messages</a>
+									<a class="dropdown-item" href=""><i class="bx bx-slider-alt"></i> Account
+										Settings</a>
+									<a class="dropdown-item" href="signin.html"><i class="bx bx-log-out"></i> Sign
+										Out</a>
+								</div>
+							</li>
+							
+							<li class="dropdown main-header-message right-toggle">
+								<a class="nav-link pe-0" data-bs-toggle="sidebar-right" data-bs-target=".sidebar-right">
+									<svg xmlns="http://www.w3.org/2000/svg" class="header-icon-svgs" viewBox="0 0 24 24"
+										fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" class="feather feather-menu">
+										<line x1="3" y1="12" x2="21" y2="12"></line>
+										<line x1="3" y1="6" x2="21" y2="6"></line>
+										<line x1="3" y1="18" x2="21" y2="18"></line>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- /main-header -->
+
+				<!-- container -->
+				<div class="container-fluid">
+
+				<!-- breadcrumb -->
+				<div class="breadcrumb-header justify-content-between">
+					<div class="left-content">
+						<div>
+						  <h2 class="main-content-title tx-24 mg-b-1 mg-b-lg-1">Hi, welcome back!</h2>
+						  <p class="mg-b-0">Sales monitoring dashboard template.</p>
+						</div>
+					</div>
+					<div class="main-dashboard-header-right">
+						<div>
+							<label class="tx-13">Customer Ratings</label>
+							<div class="main-star">
+								<i class="typcn typcn-star active"></i> <i class="typcn typcn-star active"></i> <i class="typcn typcn-star active"></i> <i class="typcn typcn-star active"></i> <i class="typcn typcn-star"></i> <span>(14,873)</span>
+							</div>
+						</div>
+						<div>
+							<label class="tx-13">Online Sales</label>
+							<h5>563,275</h5>
+						</div>
+						<div>
+							<label class="tx-13">Offline Sales</label>
+							<h5>783,675</h5>
+						</div>
+					</div>
+				</div>
+				<!-- breadcrumb -->
+
+					<!-- row -->
+					<div class="row row-sm">
+						<div class="col-xl-3 col-lg-6 col-md-6 col-xm-12">
+							<div class="card overflow-hidden sales-card bg-primary-gradient">
+								<div class="ps-3 pt-3 pe-3 pb-2 pt-0">
+									<div class="">
+										<h6 class="mb-3 tx-12 text-white">TODAY ORDERS</h6>
+									</div>
+									<div class="pb-0 mt-0">
+										<div class="d-flex">
+											<div class="">
+												<h4 class="tx-20 fw-bold mb-1 text-white">$5,74.12</h4>
+												<p class="mb-0 tx-12 text-white op-7">Compared to last week</p>
+											</div>
+											<span class="float-end my-auto ms-auto">
+												<i class="fas fa-arrow-circle-up text-white"></i>
+												<span class="text-white op-7"> +427</span>
+											</span>
+										</div>
+									</div>
+								</div>
+								<span id="compositeline" class="pt-1">5,9,5,6,4,12,18,14,10,15,12,5,8,5,12,5,12,10,16,12</span>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-6 col-md-6 col-xm-12">
+							<div class="card overflow-hidden sales-card bg-danger-gradient">
+								<div class="ps-3 pt-3 pe-3 pb-2 pt-0">
+									<div class="">
+										<h6 class="mb-3 tx-12 text-white">TODAY EARNINGS</h6>
+									</div>
+									<div class="pb-0 mt-0">
+										<div class="d-flex">
+											<div class="">
+												<h4 class="tx-20 fw-bold mb-1 text-white">$1,230.17</h4>
+												<p class="mb-0 tx-12 text-white op-7">Compared to last week</p>
+											</div>
+											<span class="float-end my-auto ms-auto">
+												<i class="fas fa-arrow-circle-down text-white"></i>
+												<span class="text-white op-7"> -23.09%</span>
+											</span>
+										</div>
+									</div>
+								</div>
+								<span id="compositeline2" class="pt-1">3,2,4,6,12,14,8,7,14,16,12,7,8,4,3,2,2,5,6,7</span>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-6 col-md-6 col-xm-12">
+							<div class="card overflow-hidden sales-card bg-success-gradient">
+								<div class="ps-3 pt-3 pe-3 pb-2 pt-0">
+									<div class="">
+										<h6 class="mb-3 tx-12 text-white">TOTAL EARNINGS</h6>
+									</div>
+									<div class="pb-0 mt-0">
+										<div class="d-flex">
+											<div class="">
+												<h4 class="tx-20 fw-bold mb-1 text-white">$7,125.70</h4>
+												<p class="mb-0 tx-12 text-white op-7">Compared to last week</p>
+											</div>
+											<span class="float-end my-auto ms-auto">
+												<i class="fas fa-arrow-circle-up text-white"></i>
+												<span class="text-white op-7"> 52.09%</span>
+											</span>
+										</div>
+									</div>
+								</div>
+								<span id="compositeline3" class="pt-1">5,10,5,20,22,12,15,18,20,15,8,12,22,5,10,12,22,15,16,10</span>
+							</div>
+						</div>
+						<div class="col-xl-3 col-lg-6 col-md-6 col-xm-12">
+							<div class="card overflow-hidden sales-card bg-warning-gradient">
+								<div class="ps-3 pt-3 pe-3 pb-2 pt-0">
+									<div class="">
+										<h6 class="mb-3 tx-12 text-white">PRODUCT SOLD</h6>
+									</div>
+									<div class="pb-0 mt-0">
+										<div class="d-flex">
+											<div class="">
+												<h4 class="tx-20 fw-bold mb-1 text-white">$4,820.50</h4>
+												<p class="mb-0 tx-12 text-white op-7">Compared to last week</p>
+											</div>
+											<span class="float-end my-auto ms-auto">
+												<i class="fas fa-arrow-circle-down text-white"></i>
+												<span class="text-white op-7"> -152.3</span>
+											</span>
+										</div>
+									</div>
+								</div>
+								<span id="compositeline4" class="pt-1">5,9,5,6,4,12,18,14,10,15,12,5,8,5,12,5,12,10,16,12</span>
+							</div>
+						</div>
+					</div>
+					<!-- row closed -->
+
+					<!-- row opened -->
+					<div class="row row-sm">
+						<div class="col-md-12 col-lg-12 col-xl-7">
+							<div class="card">
+								<div class="card-header bg-transparent pd-b-0 pd-t-20 bd-b-0">
+									<div class="d-flex justify-content-between">
+										<h4 class="card-title mb-0">Order status</h4>
+										<i class="mdi mdi-dots-horizontal text-gray"></i>
+									</div>
+									<p class="tx-12 text-muted mb-0">Order Status and Tracking. Track your order from ship date to arrival. To begin, enter your order number.</p>
+								</div>
+								<div class="card-body">
+									<div class="total-revenue">
+										<div>
+										  <h4>120,750</h4>
+										  <label><span class="bg-primary"></span>success</label>
+										</div>
+										<div>
+										  <h4>56,108</h4>
+										  <label><span class="bg-danger"></span>Pending</label>
+										</div>
+										<div>
+										  <h4>32,895</h4>
+										  <label><span class="bg-warning"></span>Failed</label>
+										</div>
+									  </div>
+									<div id="bar" class="sales-bar mt-4"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-xl-5">
+							<div class="card card-dashboard-map-one">
+								<label class="main-content-label">Sales Revenue by Customers in USA</label>
+								<span class="d-block mg-b-20 text-muted tx-12">Sales Performance of all states in the United States</span>
+								<div class="">
+									<div class="vmap-wrapper ht-180" id="vmap2"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- row closed -->
+
+					<!-- row opened -->
+					<div class="row row-sm">
+						<div class="col-xl-4 col-md-12 col-lg-12">
+							<div class="card">
+								<div class="card-header pb-1">
+									<h3 class="card-title mb-2">Recent Customers</h3>
+									<p class="tx-12 mb-0 text-muted">A customer is an individual or business that purchases the goods service has evolved to include real-time</p>
+								</div>
+								<div class="card-body p-0 customers mt-1">
+									<div class="list-group list-lg-group list-group-flush">
+										<div class="list-group-item list-group-item-action" href="#">
+											<div class="media mt-0">
+												<img class="avatar-lg rounded-circle my-auto me-3" src="assets/img/faces/3.jpg" alt="Image description">
+												<div class="media-body">
+													<div class="d-flex align-items-center">
+														<div class="mt-0">
+															<h5 class="mb-1 tx-15">Samantha Melon</h5>
+															<p class="mb-0 tx-13 text-muted">User ID: #1234 <span class="text-success ms-2">Paid</span></p>
+														</div>
+														<span class="ms-auto wd-45p fs-16 mt-2">
+															<div id="spark1" class="wd-100p"></div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="list-group-item list-group-item-action br-t-1" href="#">
+											<div class="media mt-0">
+												<img class="avatar-lg rounded-circle my-auto me-3" src="assets/img/faces/11.jpg" alt="Image description">
+												<div class="media-body">
+													<div class="d-flex align-items-center">
+														<div class="mt-1">
+															<h5 class="mb-1 tx-15">Jimmy Changa</h5>
+															<p class="mb-0 tx-13 text-muted">User ID: #1234 <span class="text-danger ms-2">Pending</span></p>
+														</div>
+														<span class="ms-auto wd-45p fs-16 mt-2">
+															<div id="spark2" class="wd-100p"></div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="list-group-item list-group-item-action br-t-1" href="#">
+											<div class="media mt-0">
+												<img class="avatar-lg rounded-circle my-auto me-3" src="assets/img/faces/17.jpg" alt="Image description">
+												<div class="media-body">
+													<div class="d-flex align-items-center">
+														<div class="mt-1">
+															<h5 class="mb-1 tx-15">Gabe Lackmen</h5>
+															<p class="mb-0 tx-13 text-muted">User ID: #1234<span class="text-danger ms-2">Pending</span></p>
+														</div>
+														<span class="ms-auto wd-45p fs-16 mt-2">
+															<div id="spark3" class="wd-100p"></div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="list-group-item list-group-item-action br-t-1" href="#">
+											<div class="media mt-0">
+												<img class="avatar-lg rounded-circle my-auto me-3" src="assets/img/faces/15.jpg" alt="Image description">
+												<div class="media-body">
+													<div class="d-flex align-items-center">
+														<div class="mt-1">
+															<h5 class="mb-1 tx-15">Manuel Labor</h5>
+															<p class="mb-0 tx-13 text-muted">User ID: #1234<span class="text-success ms-2">Paid</span></p>
+														</div>
+														<span class="ms-auto wd-45p fs-16 mt-2">
+															<div id="spark4" class="wd-100p"></div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="list-group-item list-group-item-action br-t-1 br-br-7 br-bl-7" href="#">
+											<div class="media mt-0">
+												<img class="avatar-lg rounded-circle my-auto me-3" src="assets/img/faces/6.jpg" alt="Image description">
+												<div class="media-body">
+													<div class="d-flex align-items-center">
+														<div class="mt-1">
+															<h5 class="mb-1 tx-15">Sharon Needles</h5>
+															<p class="b-0 tx-13 text-muted mb-0">User ID: #1234<span class="text-success ms-2">Paid</span></p>
+														</div>
+														<span class="ms-auto wd-45p fs-16 mt-2">
+															<div id="spark5" class="wd-100p"></div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-md-12 col-lg-6">
+							<div class="card">
+								<div class="card-header pb-1">
+									<h3 class="card-title mb-2">Sales Activity</h3>
+									<p class="tx-12 mb-0 text-muted">Sales activities are the tactics that salespeople use to achieve their goals and objective</p>
+								</div>
+								<div class="product-timeline card-body pt-2 mt-1">
+									<ul class="timeline-1 mb-0">
+										<li class="mt-0" id="mrg-8"> <i class="ti-pie-chart bg-primary-gradient text-white product-icon"></i> <span class="fw-semibold mb-4 tx-14 ">Total Products</span> <a href="#" class="float-end tx-11 text-muted">3 days ago</a>
+											<p class="mb-0 text-muted tx-12">1.3k New Products</p>
+										</li>
+										<li class="mt-0" id="mrg-8"> <i class="mdi mdi-cart-outline bg-danger-gradient text-white product-icon"></i> <span class="fw-semibold mb-4 tx-14 ">Total Sales</span> <a href="#" class="float-end tx-11 text-muted">35 mins ago</a>
+											<p class="mb-0 text-muted tx-12">1k New Sales</p>
+										</li>
+										<li class="mt-0" id="mrg-8"> <i class="ti-bar-chart-alt bg-success-gradient text-white product-icon"></i> <span class="fw-semibold mb-4 tx-14 ">Toatal Revenue</span> <a href="#" class="float-end tx-11 text-muted">50 mins ago</a>
+											<p class="mb-0 text-muted tx-12">23.5K New Revenue</p>
+										</li>
+										<li class="mt-0" id="mrg-8"> <i class="ti-wallet bg-warning-gradient text-white product-icon"></i> <span class="fw-semibold mb-4 tx-14 ">Toatal Profit</span> <a href="#" class="float-end tx-11 text-muted">1 hour ago</a>
+											<p class="mb-0 text-muted tx-12">3k New profit</p>
+										</li>
+										<li class="mt-0" id="mrg-8"> <i class="si si-eye bg-purple-gradient text-white product-icon"></i> <span class="fw-semibold mb-4 tx-14 ">Customer Visits</span> <a href="#" class="float-end tx-11 text-muted">1 day ago</a>
+											<p class="mb-0 text-muted tx-12">15% increased</p>
+										</li>
+										<li class="mt-0 mb-0" id="mrg-8"> <i class="icon-note icons bg-primary-gradient text-white product-icon"></i> <span class="fw-semibold mb-4 tx-14 ">Customer Reviews</span> <a href="#" class="float-end tx-11 text-muted">1 day ago</a>
+											<p class="mb-0 text-muted tx-12">1.5k reviews</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-4 col-md-12 col-lg-6">
+							<div class="card">
+								<div class="card-header pb-0">
+									<h3 class="card-title mb-2">Recent Orders</h3>
+									<p class="tx-12 mb-0 text-muted">An order is an investor's instructions to a broker or brokerage firm to purchase or sell</p>
+								</div>
+								<div class="card-body sales-info ot-0 pb-0 pt-0">
+									<div id="chart" class="ht-150"></div>
+									<div class="row sales-infomation pb-0 mb-0 mx-auto wd-100p">
+										<div class="col-md-6 col">
+											<p class="mb-0 d-flex"><span class="legend bg-primary brround"></span>Delivered</p>
+											<h3 class="mb-1">5238</h3>
+											<div class="d-flex">
+												<p class="text-muted ">Last 6 months</p>
+											</div>
+										</div>
+										<div class="col-md-6 col">
+											<p class="mb-0 d-flex"><span class="legend bg-info brround"></span>Cancelled</p>
+												<h3 class="mb-1">3467</h3>
+											<div class="d-flex">
+												<p class="text-muted">Last 6 months</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card ">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="d-flex align-items-center pb-2">
+												<p class="mb-0">Total Sales</p>
+											</div>
+											<h4 class="fw-bold mb-2">$7,590</h4>
+											<div class="progress progress-style progress-sm">
+												<div class="progress-bar bg-primary-gradient wd-80p" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="78"></div>
+											</div>
+										</div>
+										<div class="col-md-6 mt-4 mt-md-0">
+											<div class="d-flex align-items-center pb-2">
+												<p class="mb-0">Active Users</p>
+											</div>
+											<h4 class="fw-bold mb-2">$5,460</h4>
+											<div class="progress progress-style progress-sm">
+												<div class="progress-bar bg-danger-gradient wd-75" role="progressbar"  aria-valuenow="45" aria-valuemin="0" aria-valuemax="45"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- row close -->
+
+					<!-- row opened -->
+					<div class="row row-sm row-deck">
+						<div class="col-md-12 col-lg-4 col-xl-4">
+							<div class="card card-dashboard-eight pb-2">
+								<h6 class="card-title">Your Top Countries</h6><span class="d-block mg-b-10 text-muted tx-12">Sales performance revenue based by country</span>
+								<div class="list-group border-top-0">
+									<div class="list-group-item border-top-0" id="br-t-0">
+										<i class="flag-icon flag-icon-us flag-icon-squared"></i>
+										<p>United States</p><span>$1,671.10</span>
+									</div>
+									<div class="list-group-item">
+										<i class="flag-icon flag-icon-nl flag-icon-squared"></i>
+										<p>Netherlands</p><span>$1,064.75</span>
+									</div>
+									<div class="list-group-item">
+										<i class="flag-icon flag-icon-gb flag-icon-squared"></i>
+										<p>United Kingdom</p><span>$1,055.98</span>
+									</div>
+									<div class="list-group-item">
+										<i class="flag-icon flag-icon-ca flag-icon-squared"></i>
+										<p>Canada</p><span>$1,045.49</span>
+									</div>
+									<div class="list-group-item">
+										<i class="flag-icon flag-icon-in flag-icon-squared"></i>
+										<p>India</p><span>$1,930.12</span>
+									</div>
+									<div class="list-group-item border-bottom-0 mb-0">
+										<i class="flag-icon flag-icon-au flag-icon-squared"></i>
+										<p>Australia</p><span>$1,042.00</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-8 col-xl-8">
+							<div class="card card-table-two">
+								<div class="d-flex justify-content-between">
+									<h4 class="card-title mb-1">Your Most Recent Earnings</h4>
+									<i class="mdi mdi-dots-horizontal text-gray"></i>
+								</div>
+								<span class="tx-12 tx-muted mb-3 ">This is your most recent earnings for today's date.</span>
+								<div class="table-responsive country-table">
+									<table class="table table-striped table-bordered mb-0 text-sm-nowrap text-lg-nowrap text-xl-nowrap">
+										<thead>
+											<tr>
+												<th class="wd-lg-25p">Date</th>
+												<th class="wd-lg-25p tx-right">Sales Count</th>
+												<th class="wd-lg-25p tx-right">Earnings</th>
+												<th class="wd-lg-25p tx-right">Tax Witheld</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>05 Dec 2019</td>
+												<td class="tx-right tx-medium tx-inverse">34</td>
+												<td class="tx-right tx-medium tx-inverse">$658.20</td>
+												<td class="tx-right tx-medium tx-danger">-$45.10</td>
+											</tr>
+											<tr>
+												<td>06 Dec 2019</td>
+												<td class="tx-right tx-medium tx-inverse">26</td>
+												<td class="tx-right tx-medium tx-inverse">$453.25</td>
+												<td class="tx-right tx-medium tx-danger">-$15.02</td>
+											</tr>
+											<tr>
+												<td>07 Dec 2019</td>
+												<td class="tx-right tx-medium tx-inverse">34</td>
+												<td class="tx-right tx-medium tx-inverse">$653.12</td>
+												<td class="tx-right tx-medium tx-danger">-$13.45</td>
+											</tr>
+											<tr>
+												<td>08 Dec 2019</td>
+												<td class="tx-right tx-medium tx-inverse">45</td>
+												<td class="tx-right tx-medium tx-inverse">$546.47</td>
+												<td class="tx-right tx-medium tx-danger">-$24.22</td>
+											</tr>
+											<tr>
+												<td>09 Dec 2019</td>
+												<td class="tx-right tx-medium tx-inverse">31</td>
+												<td class="tx-right tx-medium tx-inverse">$425.72</td>
+												<td class="tx-right tx-medium tx-danger">-$25.01</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /Container -->
+			</div>
+			<!-- /main-content -->
+
+			<!-- Sidebar-right-->
+			<div class="sidebar sidebar-right sidebar-animate">
+				<div class="panel panel-primary card mb-0 box-shadow">
+					<div class="tab-menu-heading border-0 p-3">
+						<div class="card-title mb-0">Notifications</div>
+						<div class="card-options ms-auto">
+							<a href="#" class="sidebar-remove"><i class="fe fe-x"></i></a>
+						</div>
+					</div>
+					<div class="panel-body tabs-menu-body latest-tasks p-0 border-0">
+						<div class="tabs-menu ">
+							<!-- Tabs -->
+							<ul class="nav panel-tabs">
+								<li class=""><a href="#side1" class="active" data-bs-toggle="tab"><i class="ion ion-md-chatboxes tx-18 me-2"></i> Chat</a></li>
+								<li><a href="#side2" data-bs-toggle="tab"><i class="ion ion-md-notifications tx-18  me-2"></i> Notifications</a></li>
+								<li><a href="#side3" data-bs-toggle="tab"><i class="ion ion-md-contacts tx-18 me-2"></i> Friends</a></li>
+							</ul>
+						</div>
+						<div class="tab-content">
+							<div class="tab-pane active " id="side1">
+								<div class="list d-flex align-items-center border-bottom p-3">
+									<div class="">
+										<span class="avatar bg-primary brround avatar-md">CH</span>
+									</div>
+									<a class="wrapper w-100 ms-3" href="#" >
+										<p class="mb-0 d-flex ">
+											<b>New Websites is Created</b>
+										</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<div class="d-flex align-items-center">
+												<i class="mdi mdi-clock text-muted me-1"></i>
+												<small class="text-muted ms-auto">30 mins ago</small>
+												<p class="mb-0"></p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="list d-flex align-items-center border-bottom p-3">
+									<div class="">
+										<span class="avatar bg-danger brround avatar-md">N</span>
+									</div>
+									<a class="wrapper w-100 ms-3" href="#" >
+										<p class="mb-0 d-flex ">
+											<b>Prepare For the Next Project</b>
+										</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<div class="d-flex align-items-center">
+												<i class="mdi mdi-clock text-muted me-1"></i>
+												<small class="text-muted ms-auto">2 hours ago</small>
+												<p class="mb-0"></p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="list d-flex align-items-center border-bottom p-3">
+									<div class="">
+										<span class="avatar bg-info brround avatar-md">S</span>
+									</div>
+									<a class="wrapper w-100 ms-3" href="#" >
+										<p class="mb-0 d-flex ">
+											<b>Decide the live Discussion</b>
+										</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<div class="d-flex align-items-center">
+												<i class="mdi mdi-clock text-muted me-1"></i>
+												<small class="text-muted ms-auto">3 hours ago</small>
+												<p class="mb-0"></p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="list d-flex align-items-center border-bottom p-3">
+									<div class="">
+										<span class="avatar bg-warning brround avatar-md">K</span>
+									</div>
+									<a class="wrapper w-100 ms-3" href="#" >
+										<p class="mb-0 d-flex ">
+											<b>Meeting at 3:00 pm</b>
+										</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<div class="d-flex align-items-center">
+												<i class="mdi mdi-clock text-muted me-1"></i>
+												<small class="text-muted ms-auto">4 hours ago</small>
+												<p class="mb-0"></p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="list d-flex align-items-center border-bottom p-3">
+									<div class="">
+										<span class="avatar bg-success brround avatar-md">R</span>
+									</div>
+									<a class="wrapper w-100 ms-3" href="#" >
+										<p class="mb-0 d-flex ">
+											<b>Prepare for Presentation</b>
+										</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<div class="d-flex align-items-center">
+												<i class="mdi mdi-clock text-muted me-1"></i>
+												<small class="text-muted ms-auto">1 day ago</small>
+												<p class="mb-0"></p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="list d-flex align-items-center border-bottom p-3">
+									<div class="">
+										<span class="avatar bg-pink brround avatar-md">MS</span>
+									</div>
+									<a class="wrapper w-100 ms-3" href="#" >
+										<p class="mb-0 d-flex ">
+											<b>Prepare for Presentation</b>
+										</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<div class="d-flex align-items-center">
+												<i class="mdi mdi-clock text-muted me-1"></i>
+												<small class="text-muted ms-auto">1 day ago</small>
+												<p class="mb-0"></p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="list d-flex align-items-center border-bottom p-3">
+									<div class="">
+										<span class="avatar bg-purple brround avatar-md">L</span>
+									</div>
+									<a class="wrapper w-100 ms-3" href="#" >
+										<p class="mb-0 d-flex ">
+											<b>Prepare for Presentation</b>
+										</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<div class="d-flex align-items-center">
+												<i class="mdi mdi-clock text-muted me-1"></i>
+												<small class="text-muted ms-auto">45 minutes ago</small>
+												<p class="mb-0"></p>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="list d-flex align-items-center p-3">
+									<div class="">
+										<span class="avatar bg-blue brround avatar-md">U</span>
+									</div>
+									<a class="wrapper w-100 ms-3" href="#" >
+										<p class="mb-0 d-flex ">
+											<b>Prepare for Presentation</b>
+										</p>
+										<div class="d-flex justify-content-between align-items-center">
+											<div class="d-flex align-items-center">
+												<i class="mdi mdi-clock text-muted me-1"></i>
+												<small class="text-muted ms-auto">2 days ago</small>
+												<p class="mb-0"></p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="tab-pane  " id="side2">
+								<div class="list-group list-group-flush ">
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-lg brround cover-image" data-bs-image-src="assets/img/faces/12.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-3">
+											<strong>Madeleine</strong> Hey! there I' am available....
+											<div class="small text-muted">
+												3 hours ago
+											</div>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-lg brround cover-image" data-bs-image-src="assets/img/faces/1.jpg"></span>
+										</div>
+										<div class="ms-3">
+											<strong>Anthony</strong> New product Launching...
+											<div class="small text-muted">
+												5 hour ago
+											</div>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-lg brround cover-image" data-bs-image-src="assets/img/faces/2.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-3">
+											<strong>Olivia</strong> New Schedule Realease......
+											<div class="small text-muted">
+												45 minutes ago
+											</div>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-lg brround cover-image" data-bs-image-src="assets/img/faces/8.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-3">
+											<strong>Madeleine</strong> Hey! there I' am available....
+											<div class="small text-muted">
+												3 hours ago
+											</div>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-lg brround cover-image" data-bs-image-src="assets/img/faces/11.jpg"></span>
+										</div>
+										<div class="ms-3">
+											<strong>Anthony</strong> New product Launching...
+											<div class="small text-muted">
+												5 hour ago
+											</div>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-lg brround cover-image" data-bs-image-src="assets/img/faces/6.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-3">
+											<strong>Olivia</strong> New Schedule Realease......
+											<div class="small text-muted">
+												45 minutes ago
+											</div>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-lg brround cover-image" data-bs-image-src="assets/img/faces/9.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-3">
+											<strong>Olivia</strong> Hey! there I' am available....
+											<div class="small text-muted">
+												12 minutes ago
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane  " id="side3">
+								<div class="list-group list-group-flush ">
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/9.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Mozelle Belt</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel"><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/11.jpg"></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Florinda Carasco</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel" ><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/10.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Alina Bernier</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel"><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/2.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Zula Mclaughin</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel"><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/13.jpg"></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Isidro Heide</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel"><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/12.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Mozelle Belt</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" ><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/4.jpg"></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Florinda Carasco</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel"><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/7.jpg"></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Alina Bernier</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" ><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/2.jpg"></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Zula Mclaughin</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel" ><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/14.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Isidro Heide</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" ><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/11.jpg"></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Florinda Carasco</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel"><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/9.jpg"></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Alina Bernier</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel"><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/15.jpg"><span class="avatar-status bg-success"></span></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Zula Mclaughin</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel"><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+									<div class="list-group-item d-flex  align-items-center">
+										<div>
+											<span class="avatar avatar-md brround cover-image" data-bs-image-src="assets/img/faces/4.jpg"></span>
+										</div>
+										<div class="ms-2">
+											<div class="fw-semibold" data-bs-toggle="modal" data-bs-target="#chatmodel">Isidro Heide</div>
+										</div>
+										<div class="ms-auto">
+											<a href="#" class="btn btn-sm btn-light" data-bs-toggle="modal" data-bs-target="#chatmodel"><i class="fab fa-facebook-messenger"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/Sidebar-right-->
+
+			<!-- Message Modal -->
+			<div class="modal fade" id="chatmodel" tabindex="-1" role="dialog"  aria-hidden="true">
+				<div class="modal-dialog modal-dialog-right chatbox" role="document">
+					<div class="modal-content chat border-0">
+						<div class="card overflow-hidden mb-0 border-0">
+							<!-- action-header -->
+							<div class="action-header clearfix">
+								<div class="float-start hidden-xs d-flex ms-2">
+									<div class="img_cont me-3">
+										<img src="assets/img/faces/6.jpg" class="rounded-circle user_img" alt="img">
+									</div>
+									<div class="align-items-center mt-2">
+										<h4 class="text-white mb-0 fw-semibold">Daneil Scott</h4>
+										<span class="dot-label bg-success"></span><span class="me-3 text-white">online</span>
+									</div>
+								</div>
+								<ul class="ah-actions actions align-items-center">
+									<li class="call-icon">
+										<a href="" class="d-done d-md-block phone-button" data-bs-toggle="modal" data-bs-target="#audiomodal">
+											<i class="si si-phone"></i>
+										</a>
+									</li>
+									<li class="video-icon">
+										<a href="" class="d-done d-md-block phone-button" data-bs-toggle="modal" data-bs-target="#videomodal">
+											<i class="si si-camrecorder"></i>
+										</a>
+									</li>
+									<li class="dropdown">
+										<a href="" data-bs-toggle="dropdown" aria-expanded="true">
+											<i class="si si-options-vertical"></i>
+										</a>
+										<ul class="dropdown-menu dropdown-menu-right">
+											<li><i class="fa fa-user-circle"></i> View profile</li>
+											<li><i class="fa fa-users"></i>Add friends</li>
+											<li><i class="fa fa-plus"></i> Add to group</li>
+											<li><i class="fa fa-ban"></i> Block</li>
+										</ul>
+									</li>
+									<li>
+										<a href=""  class="" data-bs-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true"><i class="si si-close text-white"></i></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<!-- action-header end -->
+
+							<!-- msg_card_body -->
+							<div class="card-body msg_card_body">
+								<div class="chat-box-single-line">
+									<abbr class="timestamp">February 1st, 2019</abbr>
+								</div>
+								<div class="d-flex justify-content-start">
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/6.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+									<div class="msg_cotainer">
+										Hi, how are you Jenna Side?
+										<span class="msg_time">8:40 AM, Today</span>
+									</div>
+								</div>
+								<div class="d-flex justify-content-end ">
+									<div class="msg_cotainer_send">
+										Hi Connor Paige i am good tnx how about you?
+										<span class="msg_time_send">8:55 AM, Today</span>
+									</div>
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/9.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+								</div>
+								<div class="d-flex justify-content-start ">
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/6.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+									<div class="msg_cotainer">
+										I am good too, thank you for your chat template
+										<span class="msg_time">9:00 AM, Today</span>
+									</div>
+								</div>
+								<div class="d-flex justify-content-end ">
+									<div class="msg_cotainer_send">
+										You welcome Connor Paige
+										<span class="msg_time_send">9:05 AM, Today</span>
+									</div>
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/9.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+								</div>
+								<div class="d-flex justify-content-start ">
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/6.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+									<div class="msg_cotainer">
+										Yo, Can you update Views?
+										<span class="msg_time">9:07 AM, Today</span>
+									</div>
+								</div>
+								<div class="d-flex justify-content-end mb-4">
+									<div class="msg_cotainer_send">
+										But I must explain to you how all this mistaken  born and I will give
+										<span class="msg_time_send">9:10 AM, Today</span>
+									</div>
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/9.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+								</div>
+								<div class="d-flex justify-content-start ">
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/6.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+									<div class="msg_cotainer">
+										Yo, Can you update Views?
+										<span class="msg_time">9:07 AM, Today</span>
+									</div>
+								</div>
+								<div class="d-flex justify-content-end mb-4">
+									<div class="msg_cotainer_send">
+										But I must explain to you how all this mistaken  born and I will give
+										<span class="msg_time_send">9:10 AM, Today</span>
+									</div>
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/9.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+								</div>
+								<div class="d-flex justify-content-start ">
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/6.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+									<div class="msg_cotainer">
+										Yo, Can you update Views?
+										<span class="msg_time">9:07 AM, Today</span>
+									</div>
+								</div>
+								<div class="d-flex justify-content-end mb-4">
+									<div class="msg_cotainer_send">
+										But I must explain to you how all this mistaken  born and I will give
+										<span class="msg_time_send">9:10 AM, Today</span>
+									</div>
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/9.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+								</div>
+								<div class="d-flex justify-content-start">
+									<div class="img_cont_msg">
+										<img src="assets/img/faces/6.jpg" class="rounded-circle user_img_msg" alt="img">
+									</div>
+									<div class="msg_cotainer">
+										Okay Bye, text you later..
+										<span class="msg_time">9:12 AM, Today</span>
+									</div>
+								</div>
+							</div>
+							<!-- msg_card_body end -->
+							<!-- card-footer -->
+							<div class="card-footer">
+								<div class="msb-reply d-flex">
+									<div class="input-group">
+										<input type="text" class="form-control " placeholder="Typing....">
+										<div class="input-group-text ">
+											<button type="button" class="btn btn-primary ">
+												<i class="far fa-paper-plane" aria-hidden="true"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div><!-- card-footer end -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--Video Modal -->
+			<div id="videomodal" class="modal fade">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content bg-dark border-0 text-white">
+						<div class="modal-body mx-auto text-center p-7">
+							<h5>Valex Video call</h5>
+							<img src="assets/img/faces/6.jpg" class="rounded-circle user-img-circle h-8 w-8 mt-4 mb-3" alt="img">
+							<h4 class="mb-1 fw-semibold">Daneil Scott</h4>
+							<h6>Calling...</h6>
+							<div class="mt-5">
+								<div class="row">
+									<div class="col-4">
+										<a class="icon icon-shape rounded-circle mb-0 me-3" href="#">
+											<i class="fas fa-video-slash"></i>
+										</a>
+									</div>
+									<div class="col-4">
+										<a class="icon icon-shape rounded-circle text-white mb-0 me-3" href="#" data-bs-dismiss="modal" aria-label="Close">
+											<i class="fas fa-phone bg-danger text-white"></i>
+										</a>
+									</div>
+									<div class="col-4">
+										<a class="icon icon-shape rounded-circle mb-0 me-3" href="#">
+											<i class="fas fa-microphone-slash"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div><!-- modal-body -->
+					</div>
+				</div><!-- modal-dialog -->
+			</div><!-- modal -->
+
+			<!-- Audio Modal -->
+			<div id="audiomodal" class="modal fade">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content border-0">
+						<div class="modal-body mx-auto text-center p-7">
+							<h5>Valex Voice call</h5>
+							<img src="assets/img/faces/6.jpg" class="rounded-circle user-img-circle h-8 w-8 mt-4 mb-3" alt="img">
+							<h4 class="mb-1  fw-semibold">Daneil Scott</h4>
+							<h6>Calling...</h6>
+							<div class="mt-5">
+								<div class="row">
+									<div class="col-4">
+										<a class="icon icon-shape rounded-circle mb-0 me-3" href="#">
+											<i class="fas fa-volume-up bg-light text-dark"></i>
+										</a>
+									</div>
+									<div class="col-4">
+										<a class="icon icon-shape rounded-circle text-white mb-0 me-3" href="#" data-bs-dismiss="modal" aria-label="Close">
+											<i class="fas fa-phone text-white bg-success"></i>
+										</a>
+									</div>
+									<div class="col-4">
+										<a class="icon icon-shape  rounded-circle mb-0 me-3" href="#">
+											<i class="fas fa-microphone-slash bg-light text-dark"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div><!-- modal-body -->
+					</div>
+				</div><!-- modal-dialog -->
+			</div><!-- modal -->
+
+			<!-- Footer opened -->
+			<div class="main-footer ht-40">
+				<div class="container-fluid pd-t-0-f ht-100p">
+					<span>Copyright © 2021 <a href="#">Valex</a>. Designed by <a href="https://www.spruko.com/">Spruko</a> All rights reserved.</span>
+				</div>
+			</div>
+			<!-- Footer closed -->
+
+		</div>
+		<!-- End Page -->
+
+		<!-- Back-to-top -->
+		<a href="#top" id="back-to-top"><i class="las la-angle-double-up"></i></a>
+
+		<!-- JQuery min js -->
+		<script src="assets/plugins/jquery/jquery.min.js"></script>
+
+		<!-- Bootstrap Bundle js -->
+		<script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+		<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+		<!--Internal  Chart.bundle js -->
+		<script src="assets/plugins/chart.js/Chart.bundle.min.js"></script>
+
+		<!-- Ionicons js -->
+		<script src="assets/plugins/ionicons/ionicons.js"></script>
+
+		<!-- Moment js -->
+		<script src="assets/plugins/moment/moment.js"></script>
+
+		<!--Internal Sparkline js -->
+		<script src="assets/plugins/jquery-sparkline/jquery.sparkline.min.js"></script>
+
+		<!-- Moment js -->
+		<script src="assets/plugins/raphael/raphael.min.js"></script>
+
+		<!--Internal Apexchart js-->
+		<script src="assets/js/apexcharts.js"></script>
+
+		<!-- Rating js-->
+		<script src="assets/plugins/rating/jquery.rating-stars.js"></script>
+		<script src="assets/plugins/rating/jquery.barrating.js"></script>
+
+		<!--Internal  Perfect-scrollbar js -->
+		<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+		<script src="assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+
+		<!-- Eva-icons js -->
+		<script src="assets/js/eva-icons.min.js"></script>
+
+		<!-- right-sidebar js -->
+		<script src="assets/plugins/sidebar/sidebar.js"></script>
+		<script src="assets/plugins/sidebar/sidebar-custom.js"></script>
+
+		<!-- Sticky js -->
+		<script src="assets/js/sticky.js"></script>
+		<script src="assets/js/modal-popup.js"></script>
+
+		<!-- Left-menu js-->
+		<script src="assets/plugins/side-menu/sidemenu.js"></script>
+
+		<!-- Internal Map -->
+		<script src="assets/plugins/jqvmap/jquery.vmap.min.js"></script>
+		<script src="assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+
+		<!--Internal  index js -->
+		<script src="assets/js/index.js"></script>
+
+		<!-- Apexchart js-->
+		<script src="assets/js/apexcharts.js"></script>
+		<script src="assets/js/jquery.vmap.sampledata.js"></script>
+
+		<!-- custom js -->
+		<script src="assets/js/custom.js"></script>
+
+	</body>
 </html>
