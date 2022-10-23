@@ -47,6 +47,7 @@
 		<link href="assets/css/skin-modes.css" rel="stylesheet" />
 
 		<link href="{{mix('css/app.css') }}" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/font_lao.css">
 
 	</head>
 
